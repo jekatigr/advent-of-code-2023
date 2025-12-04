@@ -75,5 +75,5 @@ fun main() {
         return games.fold(0L) { acc, cur -> acc + cur.getMinimalRequiredPower() }
     }
 
-    runDaySolutions(day, ::part1, ::part2,  setOf(Skip.PART1_TESTS, Skip.PART1_SOLUTION))
+    runDaySolutions(day, ::part1, ::part2,  setOf())
 }
